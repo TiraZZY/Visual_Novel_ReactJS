@@ -15,7 +15,7 @@ export const DialogueData = [
     id: 3,
     name: "T",
     spritePath: "assets/img/character_01.png",
-    dialogue: "???? This is the third dialogue."
+    dialogue: "???? This is the third dialogue. additional stuff"
 },
 {
     id: 4,
