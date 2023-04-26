@@ -1,5 +1,4 @@
 import React from "react";
-// import { React, useState } from "react";
 import Nav from "./Nav";
 import ForegroundInterface from "./ForegroundInterface";
 
@@ -13,11 +12,15 @@ const LandingPage = () => {
     <div>
       <header>
         <h1 className="header">Visual Noval ReactJS</h1>
-        <Nav />
+        {/* <Nav /> */}
       </header>
 
       <main>
         <ForegroundInterface data={DialogueData}/>
+        <div className="intro-div">
+          <p>This is a simple visual noval template made with React JS.</p>
+        </div>
+        
       </main>
 
       <footer className="contact" id="contact">
@@ -25,7 +28,7 @@ const LandingPage = () => {
           <strong>Email :</strong> tira.zzhang@gmail.com
         </p>
         <p>
-          <strong>Phone :</strong> +1 (917) 402 - 8386
+          <strong>Website :</strong> www.artstation.com/ziyuzhang1
         </p>
       </footer>
     </div>

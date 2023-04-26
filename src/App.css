@@ -44,8 +44,12 @@ a {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.intro-div {
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .foreground-ui {
@@ -55,7 +59,7 @@ main {
   border: #272727 solid 5px;
   border-radius: 0.5rem;
   margin: 2rem auto;
-  background-image: url(./assets/img/bg_classroom.png);
+  background-image: url(assets/img/bg_classroom.png);
   background-size: cover;
 }
 .character-img {
